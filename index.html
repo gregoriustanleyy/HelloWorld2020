@@ -9,10 +9,11 @@
         <meta name = "viewport" content = "width = device-width, initial scale = 1.0">
         <base href = "index.html" target="_blank">
         <title>MyPurduePlan 2.0</title>
+        <link href = "style.css" rel = "stylesheet" type = "text/css">
     </head>
 
     <body>       
-        <section>
+        <div class = "Classes">
             <form action = "">
                 <label for = "courses"><h4>Input the Classes You Plan to Take (Course Abbreviation and Number; ie CS 18000)</h4></label>
                 <br>
@@ -29,11 +30,53 @@
                 <input type = "text" id = "courses" name = "course6">
                 <br><br>
                 <input type = "submit" value = "Submit"> 
+                <input type = "reset">
             </form>
-        </section>
-    
+        </div>
+
+        <div class = "Extracurricular">
+            <h5><i>It's important to participate in extracurricular activities!</i></h5>
+            <h4>Select true or false for each statement</h4>
+            <form action = "">
+                <p>Statement 1</p>
+                <input type = "radio" name = "" value = "true">
+                <label for = "true">True</label>
+                <input type = "radio" name = "" value = "false">
+                <label for = "false">False</label>
+                <br>
+                <p>Statement 2</p>
+                <input type = "radio" name = "" value = "true">
+                <label for = "true">True</label>
+                <input type = "radio" name = "" value = "false">
+                <label for = "false">False</label>
+                <br>
+                <p>Statement 3</p>
+                <input type = "radio" name = "" value = "true">
+                <label for = "true">True</label>
+                <input type = "radio" name = "" value = "false">
+                <label for = "false">False</label>
+                <br>
+                <p>Statement 4</p>
+                <input type = "radio" name = "" value = "true">
+                <label for = "true">True</label>
+                <input type = "radio" name = "" value = "false">
+                <label for = "false">False</label>
+                <br>
+                <p>Statement 5</p>
+                <input type = "radio" name = "" value = "true">
+                <label for = "true">True</label>
+                <input type = "radio" name = "" value = "false">
+                <label for = "false">False</label>
+                <br><br>
+                <input type = "submit" value="Submit">
+                <input type = "reset">
+            </form>
+        </div>
+        
+        <br>
         <nav>
             <p>Click on this <a href = "CSRequirements.html">link</a> to see the list of requirements for Computer Science</p>
+            <p>Click on this <a href = "https://boilerlink.purdue.edu/">link</a> to see the list of clubs Purdue has</p>
         </nav>
         
         <footer>
